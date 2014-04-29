@@ -1,6 +1,8 @@
 String Metrics for Go
 =====================
 
+[![Build Status](https://travis-ci.org/robyoung/go.stringmetrics.png?branch=master)](https://travis-ci.org/robyoung/go.stringmetrics?branch=master)
+
 A collection of string similarity metrics.
 
 So far there is:
