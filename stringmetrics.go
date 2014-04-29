@@ -110,3 +110,16 @@ func JaroWinkler(a, b string) float64 {
 
   return weight
 }
+
+func Hamming(a, b string) int {
+  if len(a) != len(b) {
+    return -1
+  }
+  sum := 0
+  for i := 0; i < len(a); i++ {
+    if a[i] != b[i] {
+      sum += 1
+    }
+  }
+  return sum
+}
